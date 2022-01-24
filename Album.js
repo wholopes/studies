@@ -11,6 +11,7 @@ const musicData = [
     { artist: 'Rihanna', name: 'Anti', sales: 603000 },
     { artist: 'Justin Bieber', name: 'Purpose', sales: 554000 }
 ];
+//escolhe musicas de determinado artista, so comentando
 
 const albumSalesStrings = musicData.map(function callbackFn(text){
     return text.name + ' by '+ text.artist + ' sold ' +text.sales + ' copies';
